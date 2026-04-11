@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # ── Groq Client ────────────────────────────────────────────────────────────
-client = Groq(api_key="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")
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 # ── AI Helper Function ─────────────────────────────────────────────────────
 def ask_ai(prompt):
