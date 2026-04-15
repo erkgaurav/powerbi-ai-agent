@@ -139,7 +139,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── Groq Client ────────────────────────────────────────────────
-client = Groq(api_key="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")
+client = Groq(api_key="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")
 
 # ── AI Helper Function ─────────────────────────────────────────
 def ask_ai(prompt):
